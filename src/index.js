@@ -56,7 +56,7 @@ mongoose
 app.get("/",(req,res)=>{
     //store data in redis
     redisClient.set("products","Product");
-    res.send('<h1>Hello World as</h1>');
+    res.send('<h1>Hello World Aws</h1>');
 })
 
 
